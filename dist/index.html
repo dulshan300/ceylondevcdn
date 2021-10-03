@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Flow</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" rel="stylesheet">
+    
+    <!-- <link rel="stylesheet" href="scss/style.scss"> -->
+<link rel="stylesheet" href="js.3ffe7f63.css"></head>
+<body>
+    <div id="app">  
+        
+        <v-panel action="say" :dnext="false" bnext="Process" step="1" title="Panel 1">
+            {{msg}}
+        </v-panel>
+        
+        <v-panel step="2" title="Panel 2">
+            Panel 2
+        </v-panel>
+        
+        <v-panel step="3" title="Panel 3">
+            Panel 3
+        </v-panel>
+        
+        <v-panel bnext="Back To Home" step="4" title="Panel 4">
+            Panel 4
+        </v-panel>
+
+      
+      
+    </div>
+
+    <script src="js.bb214bcd.js"></script>
+</body>
+</html>
